@@ -1,5 +1,5 @@
 # Hotstar Search Bar
 
-#### Hello everyone, here is my hotstar search bar project which I builded in unit-3 with the help of `https://openweathermap.org/api` and `https://www.embedgooglemap.net/` api's.
+#### Hello everyone, here is my hotstar search bar project which I builded in unit-3 with the help of `https://api.themoviedb.org/` and `https://www.omdbapi.com/` api's.
 
-#### Link of deployment:- https://weather-app-unit3.netlify.app/
+#### Link of deployment:- https://hotstar-search-bar-unit3.netlify.app/
