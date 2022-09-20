@@ -1,0 +1,91 @@
+#nav {
+  background-color: teal;
+  display: flex;
+  justify-content: space-between;
+  margin: -1%;
+  position: sticky;
+  top: 0%;
+  padding: 2%;
+}
+a {
+  color: wheat;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+#popularMovies {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+}
+#popularMovies > div {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 3%;
+  border-radius: 15px;
+}
+img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  /* font-family: 'Roboto Flex', sans-serif; */
+  letter-spacing: 1.5px;
+  color: rgb(0, 30, 127);
+}
+h3 {
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Roboto Flex", sans-serif;
+  letter-spacing: 1.5px;
+  color: teal;
+}
+
+@media (min-width: 100px) and (max-width: 600px) {
+  #nav {
+    width: 100%;
+  }
+  a {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  #popularMovies {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 0px;
+  }
+  #popularMovies > div {
+    border-radius: 20px;
+  }
+  h1 {
+    font-size: 12px;
+  }
+  h3 {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  #nav {
+    width: 100%;
+  }
+  a {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  #popularMovies {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #popularMovies > div {
+    border-radius: 20px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 13px;
+  }
+}

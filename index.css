@@ -1,0 +1,114 @@
+body {
+  display: flex;
+  gap: 5%;
+}
+body > div:first-child {
+  width: 55%;
+}
+body > div:last-child {
+  width: 40%;
+}
+#inputButton {
+  display: flex;
+  gap: 5%;
+}
+#query {
+  width: 60%;
+  background-color: aqua;
+  padding: 2%;
+  border-radius: 10px;
+  border: 2px solid red;
+  font-size: 30px;
+}
+button {
+  width: 35%;
+  background-color: aqua;
+  border: 2px solid red;
+  font-size: 18px;
+  padding: 2%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: gold;
+}
+#movies {
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+  width: 61%;
+  height: 500px;
+  overflow: scroll;
+  border: 2px solid red;
+  border-top: 0px;
+}
+#movies::-webkit-scrollbar {
+  display: none;
+}
+#movies > div {
+  padding: 0%;
+  width: 100%;
+}
+#moviesDisplay > div {
+  padding: 5%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 80%;
+  margin-left: 20%;
+}
+#moviesDisplay img {
+  width: 100%;
+}
+
+@media (min-width: 100px) and (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+  body > div:first-child {
+    width: 100%;
+  }
+  body > div:last-child {
+    width: 100%;
+  }
+  button,
+  #query,
+  h1 {
+    font-size: 12px !important;
+  }
+  h2,
+  h3,
+  h4 {
+    font-size: 10px !important;
+  }
+  #movies {
+    height: 200px;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.255);
+  }
+  #moviesDisplay {
+    margin-left: -70px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  body > div:first-child {
+    width: 60%;
+    display: flex;
+    flex-direction: column !important;
+  }
+  button,
+  #query,
+  h1 {
+    font-size: 14px !important;
+  }
+  h2,
+  h3,
+  h4 {
+    font-size: 12px !important;
+  }
+  #movies {
+    height: 300px;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.255);
+  }
+  #moviesDisplay {
+    margin-left: -70px;
+  }
+}
