@@ -7,6 +7,7 @@ Hello everyone, here is my hotstar search bar project which I builded in unit-3 
 
 - Search any movie name and get data.
 - Get trending / popular movies.
+- Debouncing feature
 - Responsive layout.
 
 
