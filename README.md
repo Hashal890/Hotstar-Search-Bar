@@ -3,7 +3,7 @@
 Hello everyone, here is my hotstar search bar project which I builded in unit-3 with the help of `https://api.themoviedb.org/` and `https://www.omdbapi.com/` api's. Link of deployment:- https://hotstar-search-bar-unit3.netlify.app/
 
 
-## Features
+# Features
 
 - Search any movie name and get data.
 - Get trending / popular movies.
@@ -11,7 +11,15 @@ Hello everyone, here is my hotstar search bar project which I builded in unit-3 
 - Responsive layout.
 
 
-## Tech Stack
+# Screenshots
+
+## 1. Results Page
+![Results Page](./assets/resultsPage.png)
+## 2. Trending Movies Page
+![Trending Movies](./assets/trendingMovies.png)
+
+
+# Tech Stack
 
 In this project we used following tech stacks:- 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -20,12 +28,12 @@ In this project we used following tech stacks:-
 - [Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
 
 
-## Connect with author
+# Connect with author
 
 - [Twitter](https://twitter.com/harshal258)
 - [LinkdIn](https://www.linkedin.com/in/harshalpardeshi/)
 
 
-## Feedback
+# Feedback
 
 If you have any feedback or queries, please reach out to me at pardeshiharshal90@gmail.com.
